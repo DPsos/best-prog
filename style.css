@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(fon.png);
+    font-family: 'skor';
+    color: white
+}
+.osnov { 
+    color: white;
+    font-size: 200%;
+    
+}
+.osnov::before {
+    content: 'Mon';
+    border: 2px groove white;
+    padding: 1%;
+    margin: 1%;    
+}
+
+.dok {
+    margin-top: 8%;
+}
+
+.obr {
+    background-color: rgb(188, 165, 129);
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 25px;
+    opacity: 10%;
+}
+.dokum {
+    font-size:x-large;
+    color:rgb(255, 255, 255);
+    background-color: rgb(67, 71, 74);
+    padding: 10px 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.dokum:hover {
+    background-color: rgb(73, 76, 77);
+    box-shadow: 0px 0px 10px white;
+}
+.drygish { 
+    margin-top: 5%;
+    font-size: 200%;
+}
+.obrat {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+}
+.ob {
+    display:grid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item1 {
+    width:auto;
+    color: white;
+    background-color: rgb(33, 32, 32);
+    font-size:x-large;
+    margin-bottom: 1%;
+}
+.item2 {
+    width:auto;
+    min-height: 100px;
+    color: white;
+    background-color: rgb(33, 32, 32);
+    margin-bottom: 1%;
+    font-size: xx-large;
+    resize: none;
+}
+.item3 {
+    width: auto;
+    margin-top: 2%;
+    min-width: 200px;
+    color: white;
+    background-color: rgb(61, 59, 59);
+    border: 2px ridge;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor:pointer;
+    transition:all .30s ease-in-out;
+}
+.item3:hover {
+    background-color: rgb(73, 76, 77);
+    box-shadow: 0px 0px 1px white;
+}
